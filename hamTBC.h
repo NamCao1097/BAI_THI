@@ -1,5 +1,4 @@
 #include <stdio.h>
-int main(){
 float TrungBinhCong(int arr[],int n){
 	printf("So phan tu trong mang: \n");
 	for(int i=0;i<n;i++){
@@ -13,5 +12,4 @@ float TrungBinhCong(int arr[],int n){
 		 TBC = (float)y/n;
 	}
 	return TBC;
-}
 }
